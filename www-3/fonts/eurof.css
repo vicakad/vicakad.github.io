@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'eurof55';
+    src: url('fonts/eurof55.eot');
+    src: url('fonts/eurof55.eot') format('embedded-opentype'),
+         url('fonts/eurof55.woff2') format('woff2'),
+         url('fonts/eurof55.woff') format('woff'),
+         url('fonts/eurof55.ttf') format('truetype'),
+         url('fonts/eurof55.svg#eurof55') format('svg');
+}

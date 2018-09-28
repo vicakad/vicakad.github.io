@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AlexandraScriptRegular';
+    src: url('fonts/AlexandraScriptRegular.eot');
+    src: url('fonts/AlexandraScriptRegular.eot') format('embedded-opentype'),
+         url('fonts/AlexandraScriptRegular.woff2') format('woff2'),
+         url('fonts/AlexandraScriptRegular.woff') format('woff'),
+         url('fonts/AlexandraScriptRegular.ttf') format('truetype'),
+         url('fonts/AlexandraScriptRegular.svg#AlexandraScriptRegular') format('svg');
+}

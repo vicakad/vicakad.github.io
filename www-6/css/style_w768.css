@@ -1,0 +1,259 @@
+﻿@media screen and (max-width:959px) {
+	.wraper {
+		width: 768px;
+		margin:0 auto;
+	}
+	.img_header {
+		height: 799px;
+	}
+	.logo {
+		padding-left: 16px;
+	}
+	.slider {
+		/*margin-top: 140px;*/
+	}
+	.img_slider {
+		height: 400px;
+    	margin-top: 140px;
+	}
+	.slider__larrow {
+		padding-top: 75px;
+		margin-left: -5px;
+		float: left;
+	}
+	.slider__text {
+		width: 41%;
+		padding-top: 104px;
+		/*padding-left: 30px;*/
+	}
+	.slider__span {
+		float: left;
+		padding-left: 23px;
+		font-size: 48px;
+		font-weight: 400;
+		line-height: 36px;
+	}
+	.slider__p1 {
+		
+		width: 269px;
+		padding-top: 7px;
+		padding-left: 25px;
+		overflow: hidden;
+		white-space: nowrap;
+		word-wrap: normal; /* для IE */ 
+		text-overflow: clip;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 36px;
+	}
+	.slider__p23 {
+		padding-left: 24px;
+		width: auto;
+		height: 107px;
+		overflow: hidden;
+	}
+	.slider__p2 {
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 30px;
+	}
+	.slider__p3 {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.slider__img {
+		padding-right: 3vw;
+		margin-top: -23px;
+	}
+	.slider__rarrow {
+		padding-top: 179px;
+	}
+	.nav_dots {
+		padding-top: 36px;
+		padding-right: 130px;
+		padding-bottom: 0px;
+	}
+	.about {
+		padding-top: 76px;
+	}
+	.about__list1,
+	.about__list2,
+	.about__list3 {
+		width: 28%;
+	}
+	.about__list1 {
+		padding-left: 28px;
+	}
+	.about__list2 {
+		padding-left: 37px;
+	}
+	.about__list3 {
+		padding-left: 46px;
+	}
+	.about__list2 .icon {
+		background-position: 0 0;
+	}
+	.about__list3 .icon {
+		background-position: 0 0;
+	}
+	.about__span {
+		font-size: 24px;
+	}
+	.updates__span2 {
+		display: none;
+	}
+	.update_hide {
+		display: block;
+		height: 18px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.about__p {
+		padding-top: 2px;
+		width: auto;
+		width: 153px;
+		height: 141px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.about__p2 {
+		padding-top: 8px;
+		padding-right: 9px;
+	}
+	.starts {
+		width: 370px;
+	}
+	.hide960 {
+		display: block;
+	}
+	.starts__text {
+		padding-top: 31px;
+	}
+	.starts__img {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	.starts__span1,
+	.starts__span2 {
+		height: 42px;
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.starts__span2 {
+		padding-left: 14px;
+	}
+	.starts__span {
+		width: 100px;
+	}
+	.starts__p {
+		width: 256px;
+		overflow: hidden;
+		height: 146px;
+		padding-top: 6px;
+	}
+	.starts__fon {
+		width: 315px;
+		height: 272px;
+		margin-left: 31px;
+	}
+	.updates {
+		margin-right: 0;
+	}
+	.updates__menu {
+		width: 342px;
+		padding-left: 5px;
+		padding-right: 10px;
+	}
+	.updates__text {
+		padding-left: 3px;
+	}
+	.updates__span {
+		padding-left: 65px;
+	}
+	.updates__p {
+		height: 24px;
+		overflow: hidden;
+		padding-left: 13px;
+		width: 265px;
+	}
+	.updates__list3 {
+		padding-top: 18px;
+	}
+	.updates__span2 {
+		padding-top: 18px;
+		padding-right: 27px;
+	}
+	.navi_starts {
+		padding-top: 24px;
+		margin-left: 157px;
+	}
+	.drop {
+		float: left;
+		padding-top: 28px;
+	}
+	
+	.menu__list:first-child {
+		padding-left: 19px;
+	}
+	.logotips {
+		padding-top: 27px;
+		padding-left: 0;
+	}
+	.logotips__list1 {
+		padding-left: 22px;
+	}
+	.logotips__list2,
+	.logotips__list3,
+	.logotips__list4 { 
+		padding-left: 3.5em;
+	}
+	.logotips__list5 {
+		padding-left: 6vw;
+	}
+	.logotips__list6 {
+		padding-left: 6.5vw;
+	}
+	.content2 {
+		padding-top: 102px;
+	}
+	.news {
+		margin-left: 16px;
+		width: 25%;
+	}
+	.hiden1,
+	.hiden2 {
+		padding-left: 58px;
+		display: block;
+	}	
+	.news__span {
+		width: 118px;
+		height: 18px;
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.news .pigbuller__p {
+		width: 208px;
+		margin-top: 2px;
+		height: 162px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.pigbuller,
+	.coments {
+		display: none;
+	}
+	.img_footer {
+		display: block;
+		background: url(../img/footer2.jpg) no-repeat center top;
+		height: 202px;
+	}
+	.lower {
+		padding-top: 40px;
+		padding-left: 20px;
+	}
+	.design {
+		padding-top: 93px;
+		padding-right: 24px;
+	}
+}
+

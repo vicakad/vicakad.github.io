@@ -1,0 +1,165 @@
+@media screen and ( max-width: 479px) {
+
+	.wraper {
+		width: 320px;
+	}
+	.img_header {
+		height: 516px;
+	}
+	.logo {
+		padding-left: 26%;
+	}
+	
+	.hiden {
+		display: none;
+	}
+	.slider {
+		height: 226px;
+	}
+	.img_slider {
+		height: 227px;
+		background: none;
+	}
+	.slider__p1 {
+		width: 202px;
+	}
+	.slider__text {
+		width: 89%;
+		padding-left: 0;
+		padding-top: 92px;
+	}
+	.slider__span {
+    padding-left: 46px;
+	}
+	.slider__p1 {
+    padding-left: 47px;
+    padding-top: 4px;
+	}
+	.nav_dots {
+		margin-top: 0px;
+		padding-bottom: 0px;
+		margin: 0px auto;
+	}
+	.about {
+		padding-top: 70px;
+	}
+	.about__p {
+		width: 196px;
+		height: 69px;
+	}
+	.about__p2 {
+		padding-top: 17px;
+		padding-right: 26px;
+	}
+	.about__list3 {
+		padding-top: 47px;
+	}
+	.starts {
+		width: 320px;
+	}
+	.starts__fon {
+		width: 258px;
+	}
+	.starts__p {
+		width: 178px;
+		height: 170px;
+		padding-top: 3px;
+		padding-left: 39px;
+	}
+	.starts__text {
+		padding-top: 27px;
+	}
+	.starts__span {
+		width: 125px;
+	}
+	.starts__span1,
+	.starts__span2 {
+		height: 42px;
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.starts__span1 {
+		padding-left: 10px;
+	}
+	.starts__span2 {
+		padding-left: 11px;
+	}
+	.navi_starts {
+		margin-left: 52px;
+	}
+	.img_upper {
+		height: 1209px;
+	}
+	.updates {
+		padding-left: 17px;
+		padding-top: 30px;
+	}
+	.updates__menu {
+		width: 315px;
+	}
+	.updates__list2 {
+		padding-top: 19px;
+	}
+	.updates__span {
+		display: block;
+		width: 216px;
+		overflow-y: hidden;
+		height: 24px;
+		padding-left: 15px;
+	}
+	.updates__p {
+		padding-left: 14px;
+		width: auto;
+	}
+	.updates__list3 {
+		padding-top: 21px;
+	}
+	.update_hide {
+   		padding-top: 16px;
+		padding-right: 27px;
+	}
+	.logotips {
+		padding-top: 52px;
+	}
+	.logotips__list1 {
+		padding-left: 63px;
+	}
+	.logotips__list3,
+	.logotips__list4 {
+		padding-top: 60px;
+	}
+	.logotips__list3 {
+		padding-left: 70px;
+	}
+	.logotips__list4 {
+		padding-left: 60px;
+	}
+	.logotips__list5 {
+		padding-left: 43px;
+		padding-top: 40px;
+	}
+	.logotips__list6 {
+		padding-top: 40px;
+		padding-left: 50px;
+	}
+	.news .pigbuller__p {
+		width: 284px;
+		height: 97px;
+	}
+	.img_lower {
+		display: none;
+	}
+	.lower {
+		padding-top: 0; 
+	}
+	.design {
+		padding-top: 31px;
+		float: initial;
+		position: absolute;
+		left: 29%;
+		padding-right: 0;
+	}
+	.lower {
+		display: none;
+	}
+}

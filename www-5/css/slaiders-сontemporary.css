@@ -1,0 +1,232 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700|Great+Vibes);
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+*, *:after, *:before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+* {margin:0;padding:0;border: 0 none;position: relative;}
+
+[class*="entypo-"]:before {font-family: 'entypo', sans-serif; display: inline-block; margin-right: .5rem;}
+
+html, body  {
+  background: url(../img/paper-background-4.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: lato;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+body {display: flex;}
+
+body > div {
+	margin:  auto;
+}
+
+#slide .galeria {
+  margin: 0 auto;
+  width: 70vw;
+  transform-style: preserve-3d;
+}
+
+.galeria:before {
+  content: '';
+  padding-top: 56.25%;
+  display: inline-block;
+  width: 0;
+}
+
+.card {
+  background-size: 2px 2px, cover;
+  background-repeat: repeat, none;
+  background-position: 0 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 1rem rgba(0,0,0,.5);
+  border-radius: 3px;
+  font-family: 'Great Vibes';
+}
+
+.cont-1 {
+    background:url(../img/Contemporary-corridor-1.png) no-repeat center; 
+    background-size:cover;
+}
+
+.cont-2 {
+    background: url(../img/Contemporary-kitchen-1.png) no-repeat center;
+    background-size:cover;
+}
+
+.cont-3 {
+    background: url(../img/Contemporary-kitchen-2.png) no-repeat center;
+    background-size:cover;
+}
+
+.cont-4 {
+    background: url(../img/Contemporary-kitchen-3.png) no-repeat center;
+    background-size:cover;
+}
+
+.cont-5 {
+    background: url(../img/Contemporary-livingroom-1.png) no-repeat center;
+    background-size:cover;
+}
+
+.cont-6 {
+    background: url(../img/Contemporary-livingroom-2.png) no-repeat center;
+    background-size:cover;
+}
+
+.cont-7 {
+    background: url(../img/Contemporary-livingroom-3.png) no-repeat center;
+    background-size:cover;
+}
+
+h2 {
+  color: #fff;
+  font-family: lato;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 5vh;
+  font-weight: 300;
+  line-height: 8vh;
+/*
+    background: rgba(255,191,0, .1);
+    box-shadow: 0 0 5px rgba(0,0,0,.7);
+*/
+}
+
+h2:before {
+  position: absolute;
+  left: 1rem;
+  font-weight: 200;
+  color: #fff;
+  opacity: 0;
+}
+
+input {visibility: hidden;}
+
+label {
+  background: #15BFCC;
+  position: absolute;
+  top: 0; bottom: 0;
+  margin: auto 0;
+  color: #fff;
+  font-size: 4vw;
+  line-height: 15vh; 
+  text-align: right;
+  height: 15vh;
+  width: 4vw;
+  padding: 0 .5vw;
+  cursor: pointer;
+  opacity: .1;
+  transition: .2s linear;
+}
+
+.otra + .otra,
+#img-1:checked ~ .cont-7 .afin,
+#img-2:checked ~ .cont-1 .afin,
+#img-3:checked ~ .cont-2 .afin,
+#img-4:checked ~ .cont-3 .afin,
+#img-5:checked ~ .cont-4 .afin,
+#img-6:checked ~ .cont-5 .afin,
+#img-7:checked ~ .cont-6 .afin {
+  right: 0;
+  text-align: left;
+}
+
+#img-1:checked ~ .cont-1 .otra,
+#img-2:checked ~ .cont-2 .otra,
+#img-3:checked ~ .cont-3 .otra,
+#img-4:checked ~ .cont-4 .otra,
+#img-5:checked ~ .cont-5 .otra,
+#img-6:checked ~ .cont-6 .otra,
+#img-7:checked ~ .cont-7 .otra {
+  background:  #a37654;
+  display: block;
+}
+
+#img-1:checked ~ .cont-1 .afin,
+#img-2:checked ~ .cont-2 .afin,
+#img-3:checked ~ .cont-3 .afin,
+#img-4:checked ~ .cont-4 .afin,
+#img-5:checked ~ .cont-5 .afin,
+#img-6:checked ~ .cont-6 .afin,
+#img-7:checked ~ .cont-7 .afin,
+:not(:checked) ~ .otra
+{display: none;}
+
+.card:hover label + label {
+  animation-delay: .5s;
+}
+
+.card:hover label:hover {
+  animation: none;
+  opacity: .8;
+  width: 6vw;
+  font-size: 6vw;
+}
+
+#img-1:checked ~ .cont-2, 
+#img-2:checked ~ .cont-3, 
+#img-3:checked ~ .cont-4, 
+#img-4:checked ~ .cont-5, 
+#img-5:checked ~ .cont-6, 
+#img-6:checked ~ .cont-7, 
+#img-7:checked ~ .cont-1 {
+  animation: 1s left;
+  animation-fill-mode: forwards;
+  transform-origin: center left;
+  z-index: 2;
+}
+
+#img-1:checked ~ .cont-7, 
+#img-2:checked ~ .cont-1, 
+#img-3:checked ~ .cont-2, 
+#img-4:checked ~ .cont-3, 
+#img-5:checked ~ .cont-4, 
+#img-6:checked ~ .cont-5, 
+#img-7:checked ~ .cont-6 {
+  animation: 1.5s right;
+  animation-fill-mode: forwards;
+  transform-origin: center right;
+  z-index: 2; 
+}
+
+#img-1:checked ~ .cont-1, 
+#img-2:checked ~ .cont-2,
+#img-3:checked ~ .cont-3,
+#img-4:checked ~ .cont-4,
+#img-5:checked ~ .cont-5,
+#img-6:checked ~ .cont-6,
+#img-7:checked ~ .cont-7 {
+  animation: 2s central;
+  animation-fill-mode: forwards;
+  transform-origin: center center;
+  z-index:3;
+}
+
+
+
+@keyframes left {
+  0% {transform: scale(1) translatex(0%);} 
+  70% {transform: scale(.9) translatex(-100%);}
+  100% {transform: scale(.9) translatex(-7%);}
+}
+@keyframes right {
+  0% {transform: scale(1) translatex(0%);}
+  70% {transform: scale(.9) translatex(100%);}
+  100% {transform: scale(.9) translatex(7%);}
+}
+@keyframes central {
+  0% {transform: scale(.8);z-index: 1;}
+  80% {transform: scale(.5);z-index: 3;}
+  100% {transform: scale(1);z-index: 3;}
+}

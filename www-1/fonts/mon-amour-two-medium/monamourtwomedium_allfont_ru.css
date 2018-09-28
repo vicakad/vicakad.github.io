@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'monamourtwomedium_allfont_ru';
+    src: url('fonts/monamourtwomedium_allfont_ru.eot');
+    src: url('fonts/monamourtwomedium_allfont_ru.eot') format('embedded-opentype'),
+         url('fonts/monamourtwomedium_allfont_ru.woff2') format('woff2'),
+         url('fonts/monamourtwomedium_allfont_ru.woff') format('woff'),
+         url('fonts/monamourtwomedium_allfont_ru.ttf') format('truetype'),
+         url('fonts/monamourtwomedium_allfont_ru.svg#monamourtwomedium_allfont_ru') format('svg');
+}

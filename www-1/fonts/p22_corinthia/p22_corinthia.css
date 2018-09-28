@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'p22_corinthia';
+    src: url('fonts/p22_corinthia.eot');
+    src: url('fonts/p22_corinthia.eot') format('embedded-opentype'),
+         url('fonts/p22_corinthia.woff2') format('woff2'),
+         url('fonts/p22_corinthia.woff') format('woff'),
+         url('fonts/p22_corinthia.ttf') format('truetype'),
+         url('fonts/p22_corinthia.svg#p22_corinthia') format('svg');
+}
