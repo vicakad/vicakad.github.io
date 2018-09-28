@@ -54,6 +54,11 @@ $(document).ready(function() {
 		};
 	});
 	
+//Модальное окно popup-портфолио 
+	$(".portfolio_item").each(function(i) {
+		$(this).find("a").attr("href", "#work_" + i);
+		$(this).find(".podrt_descr").attr("id", "work_" + i);
+	});
 
 	$("input, select, textarea").jqBootstrapValidation();
 
